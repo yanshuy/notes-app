@@ -9,6 +9,10 @@ body {
   background-color: #f8f6e9;
 }
 
+.notes__sidebar::-webkit-scrollbar {
+  width: 0;
+}
+
 .notes {
   display: flex;
   height: 100%;
@@ -22,8 +26,9 @@ body {
   border-right: 2px solid #dddddd;
   flex-shrink: 0;
   overflow-y: auto;
+  scrollbar-gutter: stable;
   padding: 1em;
-  width: 320px;
+  width: 330px;
 }
 
 .notes__add {
@@ -64,6 +69,9 @@ body {
 
 .notes__small-body {
   padding: 0 10px;
+  overflow: hidden;
+  scrollbar-gutter: stable;
+  text-wrap: wrap;
 }
 
 .notes__small-updated {
