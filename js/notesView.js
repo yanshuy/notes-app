@@ -19,7 +19,7 @@ export default class notesView {
           type="text"
           placeholder="Add Title..."
         />
-        <textarea class="notes__body" placeholder="Hint: click anywhere after typing to save."></textarea>
+        <textarea class="notes__body" placeholder="Hint: Dlbclick to delete a note."></textarea>
       </div>
       `;
 
